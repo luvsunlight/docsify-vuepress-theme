@@ -2,7 +2,7 @@
 
 > A vuepress-theme docsify plugin
 
-[![npm](https://img.shields.io/npm/v/docsify-pagination.svg?style=flat-square)](https://www.npmjs.com/package/docisfy-vuepress-theme)
+![npm](https://img.shields.io/npm/v/docisfy-vuepress-theme.svg)
 
 # Install
 
