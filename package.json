@@ -1,14 +1,37 @@
 {
 	"name": "docisfy-vuepress-theme",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"directories": {
-		"doc": "docs"
+	"version": "1.0.1",
+	"description": "A vuepress-theme docsify plugin",
+	"author": "prozac",
+	"license": "MIT",
+	"keywords": [
+		"umd",
+		"docsify",
+		"theme",
+		"vuepress"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/luvsunlight/docisfy-vuepress-theme"
 	},
+	"main": "./dist/index.min.js",
+	"files": [
+		"dist",
+		"README.md"
+	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "gulp"
 	},
-	"author": "",
-	"license": "ISC"
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/preset-env": "^7.4.5",
+		"babel-preset-es2015": "^6.24.1",
+		"del": "^4.1.1",
+		"gulp": "^3.9.1",
+		"gulp-babel": "^8.0.0",
+		"gulp-minify-css": "^1.2.4",
+		"gulp-rename": "^1.4.0",
+		"gulp-uglify": "^3.0.2"
+	}
 }
