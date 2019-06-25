@@ -1,6 +1,6 @@
 {
 	"name": "docisfy-vuepress-theme",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A vuepress-theme docsify plugin",
 	"author": "prozac",
 	"license": "MIT",
@@ -21,7 +21,8 @@
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "gulp"
+		"build": "gulp",
+		"publish": "npm run build && git add . && git commit -m $1 && npm login && npm publish"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.4.5",

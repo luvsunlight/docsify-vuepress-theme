@@ -4,6 +4,10 @@
 
 ![npm](https://img.shields.io/npm/v/docisfy-vuepress-theme.svg)
 
+# Why not vuepress?
+
+[vuepress](https://vuepress.vuejs.org/zh/guide/#%E5%AE%83%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84%EF%BC%9F)配置项太多，启动速度慢，过于笨重
+
 # Install
 
 ```
@@ -57,6 +61,10 @@ content
 # Related
 
 [docsify](https://docsify.js.org/#/)
+
+# TODO
+* 用less重写css（配合gulp）
+* 增加可选项，比如哪些细节不需要
 
 # Changelog
 
