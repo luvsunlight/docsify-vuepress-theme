@@ -3,6 +3,7 @@ var gulp = require("gulp"),
 	rename = require("gulp-rename"),
 	uglify = require("gulp-uglify"),
 	less = require("gulp-less"),
+	sourcemap = require("gulp-sourcemaps"),
 	babel = require("gulp-babel"),
 	babelenv = require("@babel/preset-env")
 
@@ -11,12 +12,14 @@ gulp.task("less", () => {
 		.pipe(less())
 		.pipe(minifycss())
 		.pipe(rename({ suffix: ".min" }))
-		.pipe(gulp.dest("docs/dist"))
+		.pipe(gulp.dest("docs/src"))
+		.pipe(gulp.dest("dist"))
 })
 
 gulp.task("minifyjs", () =>
 	gulp
 		.src("docs/src/index.js")
+		.pipe(sourcemap.init())
 		.pipe(
 			babel({
 				presets: [babelenv]
@@ -24,7 +27,9 @@ gulp.task("minifyjs", () =>
 		)
 		.pipe(uglify())
 		.pipe(rename({ suffix: ".min" }))
-		.pipe(gulp.dest("docs/dist"))
+		.pipe(sourcemap.write("../maps"))
+		.pipe(gulp.dest("docs/src"))
+		.pipe(gulp.dest("dist"))
 )
 
 gulp.task("watch", function() {

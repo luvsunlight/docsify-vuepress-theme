@@ -50,7 +50,7 @@
 
 ## usage
 
-![mdExtension.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/mdExtension.png)
+![extension.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/extension.png)
 
 ```
 :::tip/danger/warnign
@@ -76,6 +76,8 @@ content
 
 # Changelog
 
-2019/6/25 - 🐞fix markdown extensions' bug; rewrite links;
+2019/6/26 - 构建自动化流，`npm run dist`实现压缩，同步至 github，发布至 npm 的流; 优化了文件结构
+
+2019/6/25 - 🐞fix markdown extensions' bug; rewrite links; rewrite style by less
 
 2019/6/25 - initial release
