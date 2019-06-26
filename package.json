@@ -22,7 +22,7 @@
 	"scripts": {
 		"dev": "gulp watch & docsify serve docs",
 		"build": "gulp",
-		"dist": "npm run build && git add . && git commit -m 'update' && git push origin master && npm login && npm publish"
+		"dist": "sh build.sh"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.4.5",
