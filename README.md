@@ -2,7 +2,7 @@
 
 > A vuepress-theme docsify plugin
 
-![npm](https://img.shields.io/npm/v/docisfy-vuepress-theme.svg)
+![npm](https://img.shields.io/npm/v/docsify-vuepress-theme.svg)
 
 # Why not vuepress?
 
@@ -12,13 +12,13 @@
 
 ```
 // insert after vue.css(or other theme)
-<link rel="stylesheet" href="https://unpkg.com/docisfy-vuepress-theme/dist/style.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/docsify-vuepress-theme/dist/style.min.css" />
 
 // insert after docsify.min.js
-<script src="https://unpkg.com/docisfy-vuepress-theme/dist/index.min.js"></script>
+<script src="https://unpkg.com/docsify-vuepress-theme/dist/index.min.js"></script>
 
 // for dev environment use this
-<script src="https://unpkg.com/docisfy-vuepress-theme/dist/index.js"></script>
+<script src="https://unpkg.com/docsify-vuepress-theme/dist/index.js"></script>
 ```
 
 # Usage
@@ -29,31 +29,31 @@
 
 ### 1.1 字体随着目录的级数越来越小
 
-![font.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/font.png)
+![font.png](https://github.com/luvsunlight/docsify-vuepress-theme/blob/master/screenshots/font.png)
 
 ### 1.2 选中子目录，父目录也会高亮
 
-![highlightparent.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/highlightparent.png)
+![highlightparent.png](https://github.com/luvsunlight/docsify-vuepress-theme/blob/master/screenshots/highlightparent.png)
 
 ### 1.3 选中子目录时，其会有一个额外的背景高亮颜色
 
-![highlight.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/highlight.png)
+![highlight.png](https://github.com/luvsunlight/docsify-vuepress-theme/blob/master/screenshots/highlight.png)
 
 ### 1.4 目录折叠功能,并且有>^等箭头
 
-![menufold.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/highlightparent.png)
+![menufold.png](https://github.com/luvsunlight/docsify-vuepress-theme/blob/master/screenshots/highlightparent.png)
 
 ## 2 代码高亮
 
 将原本 docsify 的代码换成了 vuepress 风格的代码块，看起来更专业和好看
 
-![code.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/code.png)
+![code.png](https://github.com/luvsunlight/docsify-vuepress-theme/blob/master/screenshots/code.png)
 
 ## 3 markdown 扩展
 
 ## usage
 
-![extension.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/extension.png)
+![extension.png](https://github.com/luvsunlight/docsify-vuepress-theme/blob/master/screenshots/extension.png)
 
 ```
 :::tip/danger/warnign
@@ -65,7 +65,7 @@ content
 
 > 把正文里的链接样式全部重写，在其后面加入一个 icon
 
-![link.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/link.png)
+![link.png](https://github.com/luvsunlight/docsify-vuepress-theme/blob/master/screenshots/link.png)
 
 # Related
 
