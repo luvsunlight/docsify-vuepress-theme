@@ -1,6 +1,6 @@
 {
-	"name": "docisfy-vuepress-theme",
-	"version": "1.0.6",
+	"name": "docsify-vuepress-theme",
+	"version": "1.0.7",
 	"description": "A vuepress-theme docsify plugin",
 	"author": "prozac",
 	"license": "MIT",
@@ -12,7 +12,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/luvsunlight/docisfy-vuepress-theme"
+		"url": "https://github.com/luvsunlight/docsify-vuepress-themes"
 	},
 	"main": "dist/index.min.js",
 	"files": [
