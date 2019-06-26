@@ -19,6 +19,7 @@ gulp.task("less", () => {
 gulp.task("minifyjs", () =>
 	gulp
 		.src("docs/src/index.js")
+		.pipe(gulp.dest("dist"))
 		.pipe(sourcemap.init())
 		.pipe(
 			babel({

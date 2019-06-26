@@ -16,6 +16,9 @@
 
 // insert after docsify.min.js
 <script src="https://unpkg.com/docisfy-vuepress-theme/dist/index.min.js"></script>
+
+// for dev environment use this
+<script src="https://unpkg.com/docisfy-vuepress-theme/dist/index.js"></script>
 ```
 
 # Usage
@@ -70,13 +73,11 @@ content
 
 # TODO
 
--   用 less 重写 css（配合 gulp）
 -   增加可选项，比如哪些细节不需要
--   link 后面接图标
 
 # Changelog
 
-2019/6/26 - 构建自动化流，`npm run dist`实现压缩，同步至 github，发布至 npm 的流; 优化了文件结构;增加 gulp 工作流，让开发的过程更加流畅
+2019/6/26 - 构建自动化流，`npm run dist`实现压缩，同步至 github，发布至 npm 的流; 优化了文件结构;增加 gulp 工作流，让开发的过程更加流畅; 增加未压缩的 js 文件，方便生产环境使用
 
 2019/6/25 - 🐞fix markdown extensions' bug; rewrite links; rewrite style by less
 
