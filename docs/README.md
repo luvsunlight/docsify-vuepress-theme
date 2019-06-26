@@ -58,24 +58,16 @@ content
 :::
 ```
 
-## 4 链接样式重写
-
-> 把正文里的链接样式全部重写，在其后面加入一个 icon
-
-![link.png](https://github.com/luvsunlight/docisfy-vuepress-theme/blob/master/screenshots/link.png)
-
 # Related
 
 [docsify](https://docsify.js.org/#/)
 
 # TODO
+* 用less重写css（配合gulp）
+* 增加可选项，比如哪些细节不需要
+* link后面接图标
 
--   用 less 重写 css（配合 gulp）
--   增加可选项，比如哪些细节不需要
--   link 后面接图标
 
 # Changelog
-
-2019/6/25 - 🐞fix markdown extensions' bug; rewrite links;
 
 2019/6/25 - initial release
