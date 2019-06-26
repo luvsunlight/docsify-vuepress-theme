@@ -76,7 +76,7 @@ content
 
 # Changelog
 
-2019/6/26 - 构建自动化流，`npm run dist`实现压缩，同步至 github，发布至 npm 的流; 优化了文件结构
+2019/6/26 - 构建自动化流，`npm run dist`实现压缩，同步至 github，发布至 npm 的流; 优化了文件结构;增加 gulp 工作流，让开发的过程更加流畅
 
 2019/6/25 - 🐞fix markdown extensions' bug; rewrite links; rewrite style by less
 
