@@ -57,7 +57,7 @@ function vuePressTheme(hook, vm) {
 		const modifiedHtml = html.replace(
 			/(<a)([^>]*)(>)([^<]*)(<\/a>)/g,
 			function(match, p1, p2, p3, p4, p5) {
-				return p1 + p2 + p3 + p4 + p5 + template
+				return p1 + p2 + p3 + p4 + template + p5
 			}
 		)
 		next(modifiedHtml)
