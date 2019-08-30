@@ -1,5 +1,5 @@
 function isActive(title) {
-	return title.id === window.activeTitleId
+	return title.id === localStorage.activeTitleId
 }
 
 function checkCollapse(titles) {
@@ -33,7 +33,9 @@ function checkStatus(titles) {
 
 function vuePressTheme(hook, vm) {
 	hook.init(() => {
-		window.activeTitleId = window.activeTitleId || ""
+		if (!localStorage.activeTitleId) {
+			localStorage.setItem("activeTitleId", "")
+		}
 	})
 	hook.beforeEach(html => {
 		return html.replace(/(:::)(.*)(\n*)(.*)(\n*)(:::)/g, function(
@@ -79,10 +81,10 @@ function vuePressTheme(hook, vm) {
 			elm.classList.add("first-title")
 			elm.insertAdjacentHTML("afterbegin", template)
 			elm.addEventListener("click", event => {
-				if (window.activeTitleId == elm.id) {
-					window.activeTitleId = ""
+				if (localStorage.activeTitleId == elm.id) {
+					localStorage.setItem("activeTitleId", "")
 				} else {
-					window.activeTitleId = elm.id
+					localStorage.setItem("activeTitleId", elm.id)
 				}
 				checkStatus(firstTitles)
 			})
